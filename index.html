@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <script src="https://kit.fontawesome.com/76b652526b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <nav>
+                <h3>Ve<span>nom</span></h3>
+                <button>Login</button>
+            </nav>
+
+            <h1>The Venom Blog</h1>
+            <p>Your source of great content</p>
+        </div>
+
+        <div class="main">
+            <ul>
+                <li id="all" class="active" onclick="showContent(event)">All</li>
+                <li id="tech" onclick="showContent(event)">Tech</li>
+                <li id="mobile" onclick="showContent(event)">Mobile</li>
+                <li id="design" onclick="showContent(event)">Design</li>
+            </ul>
+
+            <div class="card-container" id="card-container">
+                <div class="card" id="designpost">
+                    <div class="card-img">
+                    <img src="img/post-1.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                    <p >Design</p>
+                    <h2>How to  create UX design with adobe XD</h2>
+                    <span>12 FEB 2024</span>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas odio quo totam veritatis assumenda dolorem perferendis voluptatem officiis delectus sunt.
+
+                    </p>
+                    <div class="card-profile">
+                    <img src="img/profile-1.jpg" alt="">
+                    <h4>Marques Brown </h4>
+                </div>
+                </div>
+
+                </div>
+
+                <div class="card" id="techpost">
+                    <div class="card-img">
+                        <img src="img/post-2.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                        <p >Tech</p>
+                        <h2>How to  create UX design with adobe XD</h2>
+                        <span>12 FEB 2024</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas odio quo totam veritatis assumenda dolorem perferendis voluptatem officiis delectus sunt.
+    
+                        </p>
+                        <div class="card-profile">
+                            <img src="img/profile-2.jpg" alt="">
+                            <h4>Marques Brown </h4>
+                        </div>
+                    </div>
+    
+
+                </div>
+
+                <div class="card" id="mobilepost">
+                    <div class="card-img">
+                        <img src="img/post-3.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                        <p >Mobile</p>
+                        <h2>How to  create UX design with adobe XD</h2>
+                        <span>12 FEB 2024</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas odio quo totam veritatis assumenda dolorem perferendis voluptatem officiis delectus sunt.
+    
+                        </p>
+                        <div class="card-profile">
+                            <img src="img/profile-3.jpg" alt="">
+                            <h4>Marques Brown </h4>
+                        </div>
+                    </div>
+    
+                </div>
+
+                <div class="card" id="designpost">
+                    <div class="card-img">
+                        <img src="img/post-4.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                        <p >Design</p>
+                        <h2>How to  create UX design with adobe XD</h2>
+                        <span>12 FEB 2024</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas odio quo totam veritatis assumenda dolorem perferendis voluptatem officiis delectus sunt.
+    
+                        </p>
+                        <div class="card-profile">
+                            <img src="img/profile-1.jpg" alt="">
+                            <h4>Marques Brown </h4>
+                        </div>
+                    </div>
+    
+                </div>
+
+                <div class="card" id="techpost">
+                    <div class="card-img">
+                        <img src="img/post-5.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                        <p>Tech</p>
+                        <h2>How to  create UX design with adobe XD</h2>
+                        <span>12 FEB 2024</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas odio quo totam veritatis assumenda dolorem perferendis voluptatem officiis delectus sunt.
+    
+                        </p>
+                        <div class="card-profile">
+                            <img src="img/profile-2.jpg" alt="">
+                            <h4>Marques Brown </h4>
+                        </div>
+                    </div>
+    
+                </div>
+
+                <div class="card"  id="mobilepost">
+                    <div class="card-img">
+                        <img src="img/post-6.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                        <p>Mobile</p>
+                        <h2>How to  create UX design with adobe XD</h2>
+                        <span>12 FEB 2024</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas odio quo totam veritatis assumenda dolorem perferendis voluptatem officiis delectus sunt.
+    
+                        </p>
+                        <div class="card-profile">
+                            <img src="img/profile-3.jpg" alt="">
+                            <h4>Marques Brown </h4>
+                        </div>
+                    </div>
+    
+
+                </div>
+
+
+                <div class="card" id="designpost" >
+                    <div class="card-img">
+                        <img src="img/post-7.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                        <p>Design</p>
+                        <h2>How to  create UX design with adobe XD</h2>
+                        <span>12 FEB 2024</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas odio quo totam veritatis assumenda dolorem perferendis voluptatem officiis delectus sunt.
+    
+                        </p>
+                        <div class="card-profile">
+                            <img src="img/profile-1.jpg" alt="">
+                            <h4>Marques Brown </h4>
+                        </div>
+                    </div>
+    
+
+                </div>
+
+                <div class="card" id="techpost">
+                    <div class="card-img">
+
+                        <img src="img/post-8.jpg" alt="">
+
+                    </div>
+                    
+                    <div class="card-content">
+                    <p >Tech</p>
+                    <h2>How to  create UX design with adobe XD</h2>
+                    <span>12 FEB 2024</span>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas odio quo totam veritatis assumenda dolorem perferendis voluptatem officiis delectus sunt.
+
+                    </p>
+                    <div class="card-profile">
+                        <img src="img/profile-2.jpg" alt="">
+                        <h4>Marques Brown </h4>
+                    </div>
+                </div>
+
+                </div>
+                <div class="card" id="mobilepost">
+                    <div class="card-img">
+                        <img src="img/post-9.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                        <p >Mobile</p>
+                        <h2>How to  create UX design with adobe XD</h2>
+                        <span>12 FEB 2024</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas odio quo totam veritatis assumenda dolorem perferendis voluptatem officiis delectus sunt.
+    
+                        </p>
+                        <div class="card-profile">
+                            <img src="img/profile-3.jpg" alt="">
+                            <h4>Marques Brown </h4>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="footer">
+
+
+            <p>&#169 Carpoolvenom All Right Reserved</p>
+            <ul>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+            </ul>
+
+
+        </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
